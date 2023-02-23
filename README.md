@@ -1,5 +1,6 @@
 # RemoveFalsePositives
-Just a small python script which spits out unsigned char representation for Hooked Winapis (Which are False Positives), for c/cpp Usage!
+As we all know, Usage of syscall stub: `\x4c\x8b\xd1\xb8` to detect Hooked NtApis creates False Positive results.\
+To erradicate that while **performing Dynamic EDR Evasion**, we can use this Scipt (seeing the Demo Video, before using it will be useful!)
 
 ### Usage:
 ```
