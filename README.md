@@ -1,6 +1,7 @@
 # RemoveFalsePositives
 As we all know, Usage of syscall stub: `\x4c\x8b\xd1\xb8` to detect Hooked NtApis creates False Positive results.\
-To erradicate that while **performing Dynamic EDR Evasion**, we can use this Scipt (seeing the Demo Video, before using it will be useful!)
+So, after knowing those False Positive Hooked functions, we can use this script to _jot down_ the **unsigned char array** versions (for c/cpp usage) of those Hooks, for further usage of it in our main Implant.\
+This can be used while **performing Dynamic EDR Evasion**, we can use this Scipt (seeing the Demo Video before using it, will be useful!)
 
 ### Usage:
 ```
